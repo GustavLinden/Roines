@@ -41,16 +41,12 @@ const Footer: React.FC = () => {
           <div className="column">
             <h1 className="is-size-4  has-text-white">Öppettider</h1>
             <span className="is-size-6 has-text-center has-text-white">
-              Roine Lindberg Gummi AB
+              Måndag - Fredag : 7.00 - 15.30
             </span>
             <br />
-            <span className="is-size-6 has-text-center has-text-white">
-              Kungstensgatan 12
-            </span>{' '}
+            <span className="is-size-6 has-text-center has-text-white"></span>{' '}
             <br />
-            <span className="is-size-6 has-text-center has-text-white">
-              113 57 Stockholm
-            </span>
+            <span className="is-size-6 has-text-center has-text-white"></span>
           </div>
         </div>
       </div>
