@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../pictures/roine-slim.png';
+import michelin from '../../pictures/michelin-quality-dealer.png';
 import './Header.module.scss';
 import HeaderLink from '../HeaderLink/HeaderLink';
 
@@ -22,6 +23,7 @@ const Header: React.FC = () => {
           <Link to="/" className="navbar-item">
             <img src={process.env.PUBLIC_URL + logo} alt="Loggo" />
           </Link>
+
           <a
             onClick={() => {
               setisActive(!isActive);
@@ -37,7 +39,6 @@ const Header: React.FC = () => {
             <span aria-hidden="true"></span>
           </a>
         </div>
-
         <div
           role="button"
           id="navbarBasicExample"
@@ -59,11 +60,11 @@ const Header: React.FC = () => {
                   !isTiresOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <HeaderLink page="RimTester">Vinterdäck</HeaderLink>
-                <HeaderLink page="RimTester">Sommardäck</HeaderLink>
+                <HeaderLink page="wintertiers">Vinterdäck</HeaderLink>
+                <HeaderLink page="summertiers">Sommardäck</HeaderLink>
               </div>
             </div>
-            <a className="navbar-item">Fälgar</a>
+            <HeaderLink page="rimstester">Fälgar</HeaderLink>
             <div
               onMouseEnter={() => {
                 setIsAccessoriesOpen(true);
@@ -147,8 +148,8 @@ const Header: React.FC = () => {
                 <HeaderLink page="StaffList">
                   Vi som jobbar på Roines
                 </HeaderLink>
-                <a className="navbar-item">Historik</a>
-                <a className="navbar-item">Affärsidé</a>
+                <HeaderLink page="history">Vår Historia</HeaderLink>
+                <HeaderLink page="buisnessIdea">Affärsidé</HeaderLink>
                 <a className="navbar-item">Vision</a>
                 <a className="navbar-item">Miljöpolicy</a>
                 <a className="navbar-item">Personuppgifter</a>
@@ -157,13 +158,9 @@ const Header: React.FC = () => {
           </div>
 
           <div className="navbar-end">
-            <div className="navbar-item">
-              {/* <div className="buttons">
-                <a className="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a className="button is-light">Log in</a>
-              </div> */}
+            {' '}
+            <div className="michelinLogo">
+              <img src={michelin} />
             </div>
           </div>
         </div>

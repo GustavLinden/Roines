@@ -1,0 +1,28 @@
+.backgroundcolorwhiteSmoke {
+  background-color: #ffffff;
+}
+
+.subTitlePadding {
+  padding: 5px;
+}
+.subTitleTextStyle {
+  font-style: italic;
+}
+.containerPaddings {
+  border: 1px solid rgb(233, 232, 232);
+  border-radius: 5px;
+  margin: 10px;
+}
+@media only screen and (min-width: 1408px) {
+  .widthKeeper {
+    width: 1400px;
+  }
+}
+
+.columnInternalMargin {
+  margin-top: 180px;
+}
+.columnInternalPosition {
+  position: absolute;
+  right: 15px;
+}

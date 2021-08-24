@@ -3,4 +3,5 @@ export interface ISectionModel {
   subTitle?: string;
   img?: string;
   link?: string;
+  linkname?: string;
 }

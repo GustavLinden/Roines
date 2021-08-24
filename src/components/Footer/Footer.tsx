@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </span>{' '}
             <br />
             <span className="is-size-6 has-text-center has-text-white">
-              info@roines.se
+              <a href="mailto:info@roines.se">info@roines.se</a>
             </span>{' '}
             <br />
             <span className="is-size-6 has-text-center has-text-white">
@@ -41,7 +41,8 @@ const Footer: React.FC = () => {
           <div className="column">
             <h1 className="is-size-4  has-text-white">Öppettider</h1>
             <span className="is-size-6 has-text-center has-text-white">
-              Måndag - Fredag : 7.00 - 15.30
+              Måndag - Fredag : 7.00 - 15.30 <br />
+              Fredag 15/8: 7-14
             </span>
             <br />
             <span className="is-size-6 has-text-center has-text-white"></span>{' '}

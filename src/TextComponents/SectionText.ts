@@ -1,6 +1,5 @@
 export const MainSection = {
-  title: 'Roines gummiverkstad, specialister på Elbilar',
-  mainTopic: 'Över 50-år i branschen förändrar oss',
+  title: 'Roines gummiverkstad med över 50 år i branchen',
 };
 export const Services = {
   title: 'Framtidens transporter',

@@ -8,8 +8,9 @@ const Map: React.FC = () => {
           style={{
             position: 'relative',
             textAlign: 'right',
-            height: '400px',
-            width: '1300px',
+            height: '100%',
+            width: '100%',
+            minHeight: '300px',
           }}
           width="600"
           height="500"

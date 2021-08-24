@@ -1,5 +1,4 @@
 import React from 'react';
-import Presentation from '../Presentation/Presentation';
 import { ICard } from '../../models/ICard';
 import HeaderLink from '../HeaderLink/HeaderLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

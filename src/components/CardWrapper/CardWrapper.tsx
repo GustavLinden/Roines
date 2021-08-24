@@ -1,12 +1,9 @@
 import React from 'react';
-import Card from '../SmallCard/Card';
-
+import styles from './CardWrapper.module.scss';
 const CardWrapper: React.FC = ({ children }) => {
   return (
-    <section className="section">
-      <div className="block">
-        <div className="columns">{children}</div>
-      </div>
+    <section className={`section `}>
+      <div className={`container ${styles.containerFlexFix}`}>{children}</div>
     </section>
   );
 };

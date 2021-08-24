@@ -6,3 +6,15 @@
 //     display: none;
 //   }
 // }
+
+@media screen and (max-width: 600px) {
+  .michelinLogo {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .widthKeeper {
+    width: 1400px;
+  }
+}

@@ -8,34 +8,29 @@ const StaffDescription: React.FC<IStaffCompetens> = ({
   children,
 }) => {
   return (
-    <article className="media">
-      <figure className="media-left">
-        <p className="image is-128x128">
-          <img
-            src={
-              picture
-                ? picture
-                : 'https://bulma.io/images/placeholders/128x128.png'
-            }
-          />
-        </p>
-      </figure>
-      <div className="media-content">
-        <div className="content">
-          <p>
-            {children ? children : ''}
-            <br />
-          </p>
-        </div>
-        <nav className="level is-mobile">
-          <div className="level-left">
-            <a className="level-item"></a>
-            <a className="level-item"></a>
-            <a className="level-item"></a>
+    <div className="box" style={{ margin: '5px' }}>
+      <article className="media">
+        <figure className="media-left">
+          <div className="image is-128x128">
+            <img
+              src={
+                picture
+                  ? picture
+                  : 'https://bulma.io/images/placeholders/128x128.png'
+              }
+            />
           </div>
-        </nav>
-      </div>
-    </article>
+        </figure>
+        <div className="media-content">
+          <div className="container">
+            <p>
+              {children ? children : ''}
+              <br />
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
   );
 };
 export default StaffDescription;

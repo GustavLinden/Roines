@@ -4,3 +4,6 @@
   min-height: 100vh;
   flex-direction: column;
 }
+#root {
+  font-family: 'Oxygen', sans-serif;
+}
