@@ -23,11 +23,11 @@ const Footer: React.FC = () => {
           <div className="column">
             <h1 className="is-size-4 has-text-white">Kontakt</h1>
             <span className="is-size-6 has-text-center has-text-white">
-              08-673 56 95
+              <a href="tel:08-673 56 95">08-673 56 95</a>
             </span>
             <br />
             <span className="is-size-6 has-text-center has-text-white">
-              0704-32 31 50
+              <a href="tel:0704-32 31 50">0704-32 31 50</a>
             </span>{' '}
             <br />
             <span className="is-size-6 has-text-center has-text-white">
