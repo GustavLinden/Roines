@@ -1,6 +1,5 @@
 import React from 'react';
-import Presentation from '../../../Presentation/Presentation';
-import SiteTemplate from '../../SiteTemplate';
+import SiteTemplate from '../SiteTemplate';
 
 const BuisnessIdea: React.FC = () => {
   return (

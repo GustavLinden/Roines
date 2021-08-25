@@ -60,11 +60,15 @@ const Header: React.FC = () => {
                   !isTiresOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <HeaderLink page="wintertiers">Vinterdäck</HeaderLink>
-                <HeaderLink page="summertiers">Sommardäck</HeaderLink>
+                <HeaderLink page="/tires/wintertires">Vinterdäck</HeaderLink>
+                <HeaderLink page="/tires/summertires">Sommardäck</HeaderLink>
+
+                <HeaderLink page="/tires/yokohamatires">
+                  Yokohama hjul
+                </HeaderLink>
               </div>
             </div>
-            <HeaderLink page="rimstester">Fälgar</HeaderLink>
+            <HeaderLink page="/rims/rimstester">Fälgar</HeaderLink>
             <div
               onMouseEnter={() => {
                 setIsAccessoriesOpen(true);
@@ -80,10 +84,13 @@ const Header: React.FC = () => {
                   !isAccessoriesOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <a className="navbar-item">Autosock</a>
-                <a className="navbar-item">Spacers</a>
-                <a className="navbar-item">McGard Hjullås</a>
-                <a className="navbar-item">Sicustar Hjullås</a>
+                <HeaderLink page="/accessories/autosocks">AutoSocks</HeaderLink>
+                <HeaderLink page="/accessories/sicustar">
+                  Sicustar Hjullås
+                </HeaderLink>
+                <HeaderLink page="/accessories/mcgard">
+                  McGard Hjullås
+                </HeaderLink>
               </div>
             </div>
             <div
@@ -101,11 +108,20 @@ const Header: React.FC = () => {
                   !isServiceOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <a className="navbar-item">Däckhotell</a>
-                <a className="navbar-item">Paketlösningar</a>
-                <a className="navbar-item">Hjulinställning</a>
-                <a className="navbar-item">Däckreparation</a>
-                <a className="navbar-item">Prislista</a>
+                <HeaderLink page="/services/tireshotell">
+                  Däck Hotell
+                </HeaderLink>
+                <HeaderLink page="/services/prices">Prislistor</HeaderLink>
+                <HeaderLink page="/services/packages">
+                  Paketlösningar
+                </HeaderLink>
+                <HeaderLink page="/services/repairtire">
+                  Däckreparation
+                </HeaderLink>
+
+                <HeaderLink page="/services/wheelsadjustment">
+                  Hjulinställning
+                </HeaderLink>
               </div>
             </div>
             <div
@@ -123,11 +139,21 @@ const Header: React.FC = () => {
                   !isKnowledgeOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <a className="navbar-item">Om Vinterdäck</a>
-                <a className="navbar-item">Mönsterdjup</a>
-                <a className="navbar-item">Ersätta däck</a>
-                <a className="navbar-item">Däckmärkning</a>
-                <a className="navbar-item">Bullerkrav</a>
+                <HeaderLink page="/knowledge/aboutwintertires">
+                  Om vinterdäck
+                </HeaderLink>
+                <HeaderLink page="/knowledge/tiresdepth">
+                  Mönsterdjup
+                </HeaderLink>
+                <HeaderLink page="/knowledge/replacetires">
+                  Ersätta däck
+                </HeaderLink>
+                <HeaderLink page="/knowledge/tiresmarkings">
+                  Däckmärkning
+                </HeaderLink>
+                <HeaderLink page="/knowledge/noiserequirements">
+                  Bullerkrav
+                </HeaderLink>
               </div>
             </div>
             <div
@@ -148,11 +174,16 @@ const Header: React.FC = () => {
                 <HeaderLink page="StaffList">
                   Vi som jobbar på Roines
                 </HeaderLink>
-                <HeaderLink page="history">Vår Historia</HeaderLink>
-                <HeaderLink page="buisnessIdea">Affärsidé</HeaderLink>
-                <a className="navbar-item">Vision</a>
-                <a className="navbar-item">Miljöpolicy</a>
-                <a className="navbar-item">Personuppgifter</a>
+                <HeaderLink page="/about/aboutus">Om oss</HeaderLink>
+                <HeaderLink page="/about/history">Vår Historia</HeaderLink>
+                <HeaderLink page="/about/buisnessidea">Affärsidé</HeaderLink>
+                <HeaderLink page="/about/vision">Vision</HeaderLink>
+                <HeaderLink page="/about/environmentalpolicy">
+                  Miljöpolicy
+                </HeaderLink>
+                <HeaderLink page="/about/personalinformation">
+                  Personuppgifter
+                </HeaderLink>
               </div>
             </div>
           </div>
