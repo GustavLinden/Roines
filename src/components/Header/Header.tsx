@@ -171,7 +171,7 @@ const Header: React.FC = () => {
                   !isAboutOpen ? 'is-hidden' : 'is-block'
                 }`}
               >
-                <HeaderLink page="StaffList">
+                <HeaderLink page="/stafflist">
                   Vi som jobbar på Roines
                 </HeaderLink>
                 <HeaderLink page="/about/aboutus">Om oss</HeaderLink>
