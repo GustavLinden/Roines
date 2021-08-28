@@ -15,15 +15,23 @@ const StaffPage: React.FC = () => {
     <Presentation>
       <div className="container">
         <Section>
-          <StaffDescription picture={image3}>
+          <StaffDescription picture={image3} email="info@roines.se">
             <h3>Nicklas Lindberg - Ägare/VD</h3>
           </StaffDescription>
-          <StaffDescription picture={image2}>
-            <span>
-              <h3>Lars Hultman</h3> <strong>Försäljning/Marknad/Kontor</strong>
-            </span>
-          </StaffDescription>
           <StaffDescription picture={image4}>
+            <section>
+              <h3>Lars Hultman</h3>
+              <strong>Försäljning/Marknad/Kontor</strong>
+              <ul>
+                <li>Test</li>
+                <li>Test</li>
+                <li>Test</li>
+                <li>Test</li>
+                <li>Test</li>
+              </ul>
+            </section>
+          </StaffDescription>
+          <StaffDescription picture={image2}>
             <h3>Kent Leppänen</h3>
 
             <strong>Verkstad</strong>

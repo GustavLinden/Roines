@@ -19,14 +19,21 @@ const StaffDescription: React.FC<IStaffCompetens> = ({
                   : 'https://bulma.io/images/placeholders/128x128.png'
               }
             />
+            <br />
+            <strong>
+              {' '}
+              {email ? (
+                <a href={`mailto:${email}`}>{email}</a>
+              ) : (
+                <a href="mailto:info@roines.se">Maila mig!</a>
+              )}
+            </strong>
           </div>
         </figure>
         <div className="media-content">
           <div className="container">
-            <p>
-              {children ? children : ''}
-              <br />
-            </p>
+            {children ? children : ''}
+            <br />
           </div>
         </div>
       </article>

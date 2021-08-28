@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../pictures/roine-slim.png';
+import logo from '../../pictures/roines.png';
 import michelin from '../../pictures/michelin-quality-dealer.png';
 import './Header.module.scss';
+
 import HeaderLink from '../HeaderLink/HeaderLink';
 
 const Header: React.FC = () => {
@@ -19,9 +20,17 @@ const Header: React.FC = () => {
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="navbar-brand ">
-          <Link to="/" className="navbar-item">
-            <img src={process.env.PUBLIC_URL + logo} alt="Loggo" />
+        <div className="navbar-brand">
+          <Link to="/">
+            <img
+              style={{
+                width: '156px',
+                height: '66px',
+                margin: '5px',
+              }}
+              src={process.env.PUBLIC_URL + logo}
+              alt="Loggo"
+            />
           </Link>
 
           <a
@@ -187,7 +196,6 @@ const Header: React.FC = () => {
               </div>
             </div>
           </div>
-
           <div className="navbar-end">
             {' '}
             <div className="michelinLogo">

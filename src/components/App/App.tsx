@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Body from '../Body/Body';
+import Body from '../MainPage/MainPage';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import styles from './App.module.scss';
@@ -54,7 +54,6 @@ function App() {
           <Route exact path="/accessories/sicustar" component={SicuStar} />
           <Route exact path="/accessories/mcgard" component={McGard} />
           <Route exact path="/accessories/autosocks" component={AutoSocks} />
-
           <Route
             exact
             path="/about/environmentalpolicy"

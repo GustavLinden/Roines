@@ -6,7 +6,7 @@ import HeaderLink from '../HeaderLink/HeaderLink';
 import styles from './Section.module.scss';
 
 const SectionModule: React.FC<ISectionModel> = ({
-  titel,
+  title,
   subTitle,
   img,
   children,
@@ -18,10 +18,13 @@ const SectionModule: React.FC<ISectionModel> = ({
       <section className={`hero ${styles.backgroundcolorwhiteSmoke}`}>
         <div className="hero-body">
           <div className="container">
-            <div style={{ fontSize: '32px' }}>{titel ? titel : ''}</div>
+            <div className={`${styles.titleFont}`}>{title ? title : ''}</div>
           </div>
-          <div style={{ padding: '5px' }}>
-            <p style={{ fontStyle: 'italic' }}> {subTitle ? subTitle : ''}</p>
+          <div className={`${styles.subTitlePadding}`}>
+            <p className={`${styles.subTitleTextStyle}`}>
+              {' '}
+              {subTitle ? subTitle : ''}
+            </p>
           </div>
           {img ? (
             <figure className="image is-16by9">

@@ -1,5 +1,5 @@
 export interface ISectionModel {
-  titel?: string;
+  title?: string;
   subTitle?: string;
   img?: string;
   link?: string;

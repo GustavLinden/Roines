@@ -2,15 +2,16 @@ import React from 'react';
 import CardWrapper from '../CardWrapper/CardWrapper';
 import SectionModule from '../Section/Section';
 import BigCard from '../BigCard/BigCard';
-import './Body.module.scss';
+import './MainPage.module.scss';
 import Card from '../SmallCard/Card';
 import Map from '../../Map/Map';
 import SectionLargePicture from '../SectionLargePicture/SectionLargePicture';
-const Body: React.FC = () => {
+
+const MainPage: React.FC = () => {
   return (
     <div className="container has-text-centered">
       <SectionModule
-        titel=" Välkommen till Roines Gummiverkstad, med över 50 år i branschen"
+        title=" Välkommen till Roines Gummiverkstad, med över 50 år i branschen"
         subTitle={
           'Vår tradition och historia är en viktig del av vår identitet och kontinuitet. Vår unikitet är också att vi kunnat hjälpa till med däck i kvarteret sedan 1947...'
         }
@@ -18,7 +19,7 @@ const Body: React.FC = () => {
         link={'history'}
       ></SectionModule>
       <SectionModule
-        titel="Vi är rekommenderade av Porsche"
+        title="Vi är rekommenderade av Porsche"
         subTitle="Självklart har vi också bred kunskap kring andra bilmärken"
       >
         <div></div>
@@ -27,6 +28,8 @@ const Body: React.FC = () => {
             img={
               'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
             }
+            link="www.aftonbladet.se"
+            linkName="Aftonbladet"
           >
             <strong>Rätt däck till din Porsche?</strong> <br />
             Vi hjälper dig!
@@ -59,7 +62,7 @@ const Body: React.FC = () => {
         </CardWrapper>
       </SectionModule>
       <SectionModule
-        titel={'Framtidens transporter'}
+        title={'Framtidens transporter'}
         subTitle={
           'Vi vet värdet av att känna sig säker med att din moderna bil får en modern och omtänksam service.'
         }
@@ -128,14 +131,14 @@ const Body: React.FC = () => {
         </BigCard>
       </CardWrapper>
       <SectionLargePicture
-        titel={'Trångt att lagra däcken hemma?'}
+        title={'Trångt att lagra däcken hemma?'}
         subTitle={
           'Vi ser till att fina däck tas väl om hand och är fräsha tills nästa säsong'
         }
         img={
           'https://images.unsplash.com/photo-1477823986828-5aff156284aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80'
         }
-        link={'tiershotell'}
+        link={'services/tireshotell'}
         linkname={'Däckhotell'}
       >
         <h4>Vi tar hand om dina däck när säsongerna växlar</h4>
@@ -159,4 +162,4 @@ const Body: React.FC = () => {
   );
 };
 
-export default Body;
+export default MainPage;

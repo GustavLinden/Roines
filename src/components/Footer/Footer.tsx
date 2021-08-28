@@ -1,5 +1,11 @@
 import React from 'react';
 import './Footer.module.scss';
+import facebook from '../../pictures/facebook.png';
+import instagram from '../../pictures/instagram.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
@@ -19,6 +25,7 @@ const Footer: React.FC = () => {
             <span className="is-size-6 has-text-center has-text-white">
               113 57 Stockholm
             </span>
+            <br />
           </div>
           <div className="column">
             <h1 className="is-size-4 has-text-white">Kontakt</h1>
@@ -35,7 +42,9 @@ const Footer: React.FC = () => {
             </span>{' '}
             <br />
             <span className="is-size-6 has-text-center has-text-white">
-              PLACEHOLDER FOR CONTACTFORMULA
+              <span className="has-text-center tile-is-ancestor">
+                <br />
+              </span>
             </span>
           </div>
           <div className="column">
@@ -49,6 +58,26 @@ const Footer: React.FC = () => {
             <br />
             <span className="is-size-6 has-text-center has-text-white"></span>
           </div>
+        </div>
+        <div className="columns">
+          <div className="column ">INSERT COPYRIGHTS</div>
+          <div className="column is-4 has-text-centered">
+            <a
+              className="mr-4"
+              style={{ fontSize: '32px' }}
+              href="https://sv-se.facebook.com/Roine-Lindberg-Gummi-AB-196509367083545/"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+
+            <a
+              style={{ marginLeft: '4px', fontSize: '32px' }}
+              href="https://www.instagram.com/roinesgummi/"
+            >
+              <FontAwesomeIcon icon={faInstagramSquare} />
+            </a>
+          </div>
+          <div className="column"></div>
         </div>
       </div>
     </footer>

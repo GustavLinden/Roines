@@ -5,7 +5,7 @@ import { ISectionModel } from '../../models/ISectionModel';
 import HeaderLink from '../HeaderLink/HeaderLink';
 import styles from './SectionLargeImage.module.scss';
 const SectionLargePicture: React.FC<ISectionModel> = ({
-  titel,
+  title,
   subTitle,
   img,
   children,
@@ -18,7 +18,7 @@ const SectionLargePicture: React.FC<ISectionModel> = ({
         <div className="hero-body">
           <div className="container">
             <div>
-              <strong className="title">{titel ? titel : ''}</strong>
+              <strong className="title">{title ? title : ''}</strong>
             </div>
 
             <div className={`${styles.subTitlePadding}`}>
