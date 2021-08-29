@@ -148,7 +148,7 @@ const MainPage: React.FC = () => {
           Läs mer om våra priser och varför vi är ett bra val för däckhotell
         </div>
       </SectionLargePicture>
-      <div className="title">Här hittar du oss</div>
+      <div>Här hittar du oss</div>
       <figure
         style={{
           overflow: ' hidden',

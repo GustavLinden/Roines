@@ -4,18 +4,118 @@ import SiteTemplate from '../SiteTemplate';
 const Pricing: React.FC = () => {
   return (
     <SiteTemplate>
-      <h1>Yokohama Advan A052</h1>
-      Yokohama A052 är det perfekta däcket för dig som kör trackdays, men även
-      för dig med racebilen som är ute efter ett av de absolut snabbaste
-      gatlegala däcket. Tack vare den speciella gummiblandningen och den
-      asymetriska mönsterdesignen, fungerar de förutom på torr asfalt, även
-      väldigt bra på våt asfalt.De fungerar lika bra att användas till och från
-      banan, som för att att sätta varvrekord på rejsbanan. Men går även att
-      använda till vardags för söndagskörningar, tack vare det exceptionellt bra
-      kallgreppet och goda våtegenskaperna.Yokohama A052 är i de flesta
-      storlekarna, klacificerade A i våtgrepp. De är även klassificerade D på
-      energi, och överenstämmer därmed med den Europeiska standarden för
-      rullmotstånd.Snabbaste däcket med treadware tw200.
+      <article>
+        <h1>Prislista däckservice</h1>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Service personbil</th>
+              <th>Pris/st</th>
+              <th>Pris/4st</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hjulskifte</td>
+              <td>113.00</td>
+              <td>450.00</td>
+            </tr>
+            <tr>
+              <td>Hjulbalans inkl skifte och hjultvätt</td>
+              <td>263.00</td>
+              <td>1052.00</td>
+            </tr>
+            <tr>
+              <td>Punkteringslagning inkl skifte och hjultvätt</td>
+              <td>550.00</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Demontering, montering, balansering och skifte</td>
+              <td>400.00</td>
+              <td>1600.00</td>
+            </tr>{' '}
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Service SUV/LL</th>
+              <th>Pris/st</th>
+              <th>Pris/4st</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hjulskifte</td>
+              <td>144.00</td>
+              <td>575.00</td>
+            </tr>
+            <tr>
+              <td>Hjulbalans inkl skifte och hjultvätt</td>
+              <td>344.00</td>
+              <td>1376.00</td>
+            </tr>
+            <tr>
+              <td>Punkteringslagning inkl skifte och hjultvätt</td>
+              <td>675.00</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Demontering, montering, balansering och skifte</td>
+              <td>494.00</td>
+              <td>1975.00</td>
+            </tr>{' '}
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Hjulinställning personbil / SUV</th>
+              <th>Pris/bil</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>4-hjulsmätning samt justering</td>
+              <td>från 1200 kr</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Däckhotell</th>
+              <th>Pris/säsong</th>
+            </tr>
+            <tr>
+              <td>Personbil Small</td>
+              <td>1 470kr</td>
+            </tr>
+            <tr>
+              <td>Personalbil Medium</td>
+              <td>1 635kr</td>
+            </tr>
+            <tr>
+              <td>SUV / Large</td>
+              <td>1 885kr</td>
+            </tr>
+            <tr>
+              <td>SUV / X-Large</td>
+              <td>2 125kr</td>
+            </tr>
+          </thead>
+        </table>
+
+        <p style={{ width: '100%', textAlign: 'center', fontSize: 'smaller' }}>
+          * Inkluderar 1st säsongsförvaring, hjulskifte, tvätt av hjulen samt
+          kontroll av skick.
+        </p>
+      </article>
     </SiteTemplate>
   );
 };

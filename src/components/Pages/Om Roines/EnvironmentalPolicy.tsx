@@ -4,18 +4,33 @@ import SiteTemplate from '../SiteTemplate';
 const EnvironmentalPolicy: React.FC = () => {
   return (
     <SiteTemplate>
-      <h1>Yokohama Advan A052</h1>
-      Yokohama A052 är det perfekta däcket för dig som kör trackdays, men även
-      för dig med racebilen som är ute efter ett av de absolut snabbaste
-      gatlegala däcket. Tack vare den speciella gummiblandningen och den
-      asymetriska mönsterdesignen, fungerar de förutom på torr asfalt, även
-      väldigt bra på våt asfalt.De fungerar lika bra att användas till och från
-      banan, som för att att sätta varvrekord på rejsbanan. Men går även att
-      använda till vardags för söndagskörningar, tack vare det exceptionellt bra
-      kallgreppet och goda våtegenskaperna.Yokohama A052 är i de flesta
-      storlekarna, klacificerade A i våtgrepp. De är även klassificerade D på
-      energi, och överenstämmer därmed med den Europeiska standarden för
-      rullmotstånd.Snabbaste däcket med treadware tw200.
+      <article>
+        <h1>Miljöpolicy</h1>
+        <p>
+          Roine Lindberg Gummi AB ska verka för en bättre Miljö dels genom
+          löpande rutiner som är enkla att efterfölja samt en ambition om att vi
+          hela tiden kan bli bättre och utveckla det systematiska miljöarbetet.
+        </p>
+        <p>
+          Vad beträffar våra leverantörer så ställer vi krav på att dessa har
+          Miljöpolicy alt ingår i någon form av aktivt certifieringsarbete. Vid
+          inköp av förbrukningsmaterial såsom ex: Kemikalier kräver vi att dessa
+          är godkända av Kemikalieinspektionen samt att de kemikalier som
+          innehåller petrolium hamnar i en oljeavskiljare på vägen ut i allmänna
+          avloppet.
+        </p>
+        <p>
+          Då vi aktivt rekomenderar våra kunder däck som har lägre rullmotstånd
+          än genomsnittet i syfte att minska koldioxidhalten krävs det av våra
+          däckleverantörer att de har ett brett sortiment som svarar upp mot
+          våra krav.
+        </p>
+        <p>
+          Nicklas Lindberg
+          <br />
+          Roine Lindberg Gummi AB
+        </p>
+      </article>
     </SiteTemplate>
   );
 };

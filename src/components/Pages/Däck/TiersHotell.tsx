@@ -14,7 +14,8 @@ const TiersHotell: React.FC = () => {
             <li>Förvaring en säsong </li>
             <li>Ett skifte av hjul.</li>
             <li>Tvätt av hjulen</li>
-            <li>Okulär besiktning av däckens skick Kallelse via sms</li>
+            <li>Okulär besiktning av däckens skick</li>
+            <li>Kallelse via sms</li>
             <li>Ombokning via internet</li>
           </ul>
 

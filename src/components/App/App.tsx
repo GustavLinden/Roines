@@ -30,6 +30,7 @@ import McGard from '../Pages/Tillbehör/McGard';
 import SicuStar from '../Pages/Tillbehör/SicuStar';
 import Packages from '../Pages/Servicetjänster/Packages';
 import WheelAdjustment from '../Pages/Servicetjänster/WheelsAdjustment';
+import MichelinQualityDealer from '../Pages/Om Roines/MichelinQualityDealer';
 
 function App() {
   return (
@@ -62,10 +63,10 @@ function App() {
           <Route exact path="/about/history" component={History} />
           <Route
             exact
-            path="about/personalinformation"
+            path="/about/personalinformation"
             component={PersonalInformation}
           />
-          <Route exact path="about/vision" component={Vision} />
+          <Route exact path="/about/vision" component={Vision} />
           <Route
             exact
             path="/knowledge/noiserequirements"
@@ -90,6 +91,11 @@ function App() {
             exact
             path="/knowledge/tiresmarkings"
             component={TiresMarking}
+          />
+          <Route
+            exact
+            path="/michelinqualitydealer"
+            component={MichelinQualityDealer}
           />
           <Route exact path="/services/prices" component={Pricing} />
           <Route exact path="/services/packages" component={Packages} />

@@ -4,18 +4,68 @@ import SiteTemplate from '../SiteTemplate';
 const PersonalInformation: React.FC = () => {
   return (
     <SiteTemplate>
-      <h1>Yokohama Advan A052</h1>
-      Yokohama A052 är det perfekta däcket för dig som kör trackdays, men även
-      för dig med racebilen som är ute efter ett av de absolut snabbaste
-      gatlegala däcket. Tack vare den speciella gummiblandningen och den
-      asymetriska mönsterdesignen, fungerar de förutom på torr asfalt, även
-      väldigt bra på våt asfalt.De fungerar lika bra att användas till och från
-      banan, som för att att sätta varvrekord på rejsbanan. Men går även att
-      använda till vardags för söndagskörningar, tack vare det exceptionellt bra
-      kallgreppet och goda våtegenskaperna.Yokohama A052 är i de flesta
-      storlekarna, klacificerade A i våtgrepp. De är även klassificerade D på
-      energi, och överenstämmer därmed med den Europeiska standarden för
-      rullmotstånd.Snabbaste däcket med treadware tw200.
+      <article>
+        <h1>Personuppgiftspolicy</h1>
+        <p>
+          Roine Lindberg Gummi AB värnar om din personliga integritet och
+          strävar alltid att hålla en hög nivå av dataskydd. Vi säljer aldrig
+          dina personuppgifter vidare till ett annat företag. I denna policy får
+          du information om vilka personuppgifter vi samlar in och varför vi gör
+          det, dina rättigheter och hur du kan göra dem gällande. Du är alltid
+          välkommen att kontakta oss vid eventuella frågor.
+        </p>
+        <p>
+          Vid bokning samt kontaktformulär registrerar vi namn, e-post,
+          telefonnummer samt registreringsnummer. För de kunder som vi förvarar
+          hjul sparar vi även addressuppgifter. Dessa uppgifter samlas in för
+          att vi ska kunna fullgöra våra åtaganden.
+        </p>
+        <p>
+          Du har enligt dataskyddsförordningen{' '}
+          <a
+            href="https://www.datainspektionen.se/lagar--regler/dataskyddsforordningen/"
+            title="Dataskyddsförordningen (GDPR, The General Data Protection Regulation)"
+            target="_blank"
+          >
+            (GDPR)
+          </a>{' '}
+          rätt att begära utdrag ur vårt register om dina uppgifter, samt få
+          dessa rättade om de är felaktiga, ofullständiga eller missvisande. Du
+          har även rätt att få dina uppgifter raderade.
+        </p>
+        <p>
+          Uppgifter om kunder som har varit inaktiva i mer är 36 månader gallras
+          kontinuerligt.
+        </p>
+        <p>
+          Personuppgiftsansvarig är
+          <br />
+          Roine Lindberg Gummi AB
+          <br />
+          Orginisationsnummer 556498-1156
+          <br />
+          Kungstensgatan 12
+          <br />
+          113 57 Stockholm.
+        </p>
+
+        <h2>Cookies</h2>
+        <p>
+          En cookie (webbkaka) är en liten textfil som sparas i din webbläsare
+          när du besöker en webbplats. Cookies används på de flesta webbplatser
+          för att säkerställa funktioner och underlätta för besökaren. Det finns
+          två sorter: den ena sparar en fil under en längre tid på din dator och
+          den andra (session cookie) används temporärt och försvinner när du
+          stänger din webbläsare.
+        </p>
+        <p>
+          Roine Lindberg Gummi AB använder endast tillfälliga webbkakor (session
+          cookies). Informationen raderas när du stänger webbläsaren.{' '}
+        </p>
+        <p>
+          Vill du stänga av användningen av cookies gör du det i din webbläsare.
+        </p>
+      </article>
     </SiteTemplate>
   );
 };

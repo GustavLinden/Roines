@@ -124,7 +124,7 @@ const Header: React.FC = () => {
                 <HeaderLink page="/services/packages">
                   Paketlösningar
                 </HeaderLink>
-                <HeaderLink page="/services/repairtire">
+                <HeaderLink page="/services/repairtires">
                   Däckreparation
                 </HeaderLink>
 
