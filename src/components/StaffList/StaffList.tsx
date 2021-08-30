@@ -22,13 +22,6 @@ const StaffPage: React.FC = () => {
             <section>
               <h3>Lars Hultman</h3>
               <strong>Försäljning/Marknad/Kontor</strong>
-              <ul>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-              </ul>
             </section>
           </StaffDescription>
           <StaffDescription picture={image2}>

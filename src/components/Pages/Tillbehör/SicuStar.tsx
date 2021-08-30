@@ -24,12 +24,12 @@ const SicuStar: React.FC = () => {
 
         <p></p>
         <p>
-          <Link
+          <a
             title="Sicustars hemsida"
-            to="http://www.sicuplus.com/se/produkte/sicustar/"
+            href="http://www.sicuplus.com/se/produkte/sicustar/"
           >
             Mera information
-          </Link>
+          </a>
         </p>
       </article>
     </SiteTemplate>

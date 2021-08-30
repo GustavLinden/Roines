@@ -4,4 +4,6 @@ export interface ICard {
   title?: string;
   link?: string;
   linkName?: string;
+  extLink?: string;
+  extLinkName?: string;
 }
