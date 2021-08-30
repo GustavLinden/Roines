@@ -6,8 +6,8 @@ const Booking: React.FC = () => {
   const [hasBookingRef, sethasBookingRef] = React.useState(false);
   return (
     <Presentation>
-      <div className="content">
-        <div className="title">
+      <div className="container">
+        <div className="content">
           <button
             className="button is-primary"
             onClick={() => sethasBookingRef(!hasBookingRef)}
@@ -18,6 +18,7 @@ const Booking: React.FC = () => {
           </button>{' '}
         </div>
         <iframe
+          className="content"
           style={{ minHeight: '775px', minWidth: '688px' }}
           src={`https://roinelindberg.compilator.com/public/cms?Id=1&CompanyId=5ab30405-395f-47bf-9b5f-6db4f7286a8f&branchId=1${
             hasBookingRef ? '&changeBooking=true' : ''
