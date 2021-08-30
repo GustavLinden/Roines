@@ -78,6 +78,7 @@ const Header: React.FC = () => {
               </div>
             </div>
             <HeaderLink page="/rims/rimstester">Fälgar</HeaderLink>
+            <HeaderLink page="/booking">Bokning</HeaderLink>
             <div
               onMouseEnter={() => {
                 setIsAccessoriesOpen(true);

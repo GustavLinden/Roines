@@ -2,6 +2,7 @@ import React from 'react';
 import SiteTemplate from '../SiteTemplate';
 
 const TierRepair: React.FC = () => {
+  //Denna del ser för taskig ut och är svår att läsa
   return (
     <SiteTemplate>
       <article>

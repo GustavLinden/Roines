@@ -1,8 +1,5 @@
 import React from 'react';
 import './Footer.module.scss';
-import facebook from '../../pictures/facebook.png';
-import instagram from '../../pictures/instagram.png';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';

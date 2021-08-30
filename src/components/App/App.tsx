@@ -31,6 +31,7 @@ import SicuStar from '../Pages/Tillbehör/SicuStar';
 import Packages from '../Pages/Servicetjänster/Packages';
 import WheelAdjustment from '../Pages/Servicetjänster/WheelsAdjustment';
 import MichelinQualityDealer from '../Pages/Om Roines/MichelinQualityDealer';
+import Booking from '../Pages/Booking/Booking';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route exact path="/rims/rimstester" component={RimTester} />
           <Route exact path="/tires/yokohamatires" component={Yokohama} />
           <Route exact path="/about/aboutus" component={About} />
+          <Route exact path="/booking" component={Booking} />
           <Route exact path="/about/buisnessidea" component={BuisnessIdea} />
           <Route exact path="/accessories/sicustar" component={SicuStar} />
           <Route exact path="/accessories/mcgard" component={McGard} />

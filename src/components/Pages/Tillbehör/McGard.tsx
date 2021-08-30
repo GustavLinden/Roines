@@ -4,18 +4,18 @@ import SiteTemplate from '../SiteTemplate';
 const McGard: React.FC = () => {
   return (
     <SiteTemplate>
-      <h1>Yokohama Advan A052</h1>
-      Yokohama A052 är det perfekta däcket för dig som kör trackdays, men även
-      för dig med racebilen som är ute efter ett av de absolut snabbaste
-      gatlegala däcket. Tack vare den speciella gummiblandningen och den
-      asymetriska mönsterdesignen, fungerar de förutom på torr asfalt, även
-      väldigt bra på våt asfalt.De fungerar lika bra att användas till och från
-      banan, som för att att sätta varvrekord på rejsbanan. Men går även att
-      använda till vardags för söndagskörningar, tack vare det exceptionellt bra
-      kallgreppet och goda våtegenskaperna.Yokohama A052 är i de flesta
-      storlekarna, klacificerade A i våtgrepp. De är även klassificerade D på
-      energi, och överenstämmer därmed med den Europeiska standarden för
-      rullmotstånd.Snabbaste däcket med treadware tw200.
+      <article>
+        <h1>McGard Hjullås</h1>
+        <h3>Svåra att forcera, svåra att motstå</h3>
+        <p>
+          Amerikanska McGard är marknadsledande inom lås- och säkerhetsprodukter
+          för bilindustrin. McGards fälglås är mycket svårforcerade, även med
+          specialverktyg, tack vare unika frästa kodspår i oändliga variationer.
+          Därtill kombinerade med bultar och muttrar av härdat stål. Världens
+          främsta biltillverkare originalmonterar fälglås från McGard på sina
+          bilar. De är helt enkelt för säkra för att motstå.
+        </p>
+      </article>
     </SiteTemplate>
   );
 };

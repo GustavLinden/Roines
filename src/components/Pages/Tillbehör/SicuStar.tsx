@@ -1,21 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SiteTemplate from '../SiteTemplate';
 
 const SicuStar: React.FC = () => {
   return (
     <SiteTemplate>
-      <h1>Yokohama Advan A052</h1>
-      Yokohama A052 är det perfekta däcket för dig som kör trackdays, men även
-      för dig med racebilen som är ute efter ett av de absolut snabbaste
-      gatlegala däcket. Tack vare den speciella gummiblandningen och den
-      asymetriska mönsterdesignen, fungerar de förutom på torr asfalt, även
-      väldigt bra på våt asfalt.De fungerar lika bra att användas till och från
-      banan, som för att att sätta varvrekord på rejsbanan. Men går även att
-      använda till vardags för söndagskörningar, tack vare det exceptionellt bra
-      kallgreppet och goda våtegenskaperna.Yokohama A052 är i de flesta
-      storlekarna, klacificerade A i våtgrepp. De är även klassificerade D på
-      energi, och överenstämmer därmed med den Europeiska standarden för
-      rullmotstånd.Snabbaste däcket med treadware tw200.
+      <article>
+        <h1>Sicustar Hjullås</h1>
+        <h3>Sicustar Silver</h3>
+        <p>
+          Den säkraste låssatsen av samtliga våra produkter, tack vare
+          motståndskraften över 400nm mot vridningsvåld, hylsan kan inte skäras
+          upp och bulthuvudet motstår alla brottförsök. Sicustar är certifierad
+          av de viktigaste biltillverkarna och av THATCHAM Institutet.
+        </p>
+        <ul>
+          <li>400 kombinationer</li>
+          <li>Zink lager</li>
+          <li>Korrosion beständig: 720/h, Norm ISO 9227:2006</li>
+          <li>Torque Tension max. testad: 400 Nm</li>
+          <li>Roterande hylsa och THATCHAM examined</li>
+        </ul>
+
+        <p></p>
+        <p>
+          <Link
+            title="Sicustars hemsida"
+            to="http://www.sicuplus.com/se/produkte/sicustar/"
+          >
+            Mera information
+          </Link>
+        </p>
+      </article>
     </SiteTemplate>
   );
 };
