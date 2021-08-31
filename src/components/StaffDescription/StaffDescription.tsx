@@ -5,6 +5,7 @@ const StaffDescription: React.FC<IStaffCompetens> = ({
   email,
   summary,
   picture,
+  phone,
   children,
 }) => {
   return (
@@ -20,20 +21,36 @@ const StaffDescription: React.FC<IStaffCompetens> = ({
               }
             />
             <br />
-            <strong>
-              {' '}
-              {email ? (
-                <a href={`mailto:${email}`}>{email}</a>
-              ) : (
-                <a href="mailto:info@roines.se">Maila mig!</a>
-              )}
-            </strong>
           </div>
         </figure>
+
         <div className="media-content">
+          <h3>{name ? name : ''}</h3>
           <div className="container">
             {children ? children : ''}
             <br />
+            <div className="columns">
+              <div className="column">
+                {' '}
+                <strong>
+                  {' '}
+                  {email ? (
+                    <a href={`mailto:${email}`}>{email}</a>
+                  ) : (
+                    <a href="mailto:info@roines.se">Maila mig!</a>
+                  )}
+                </strong>
+              </div>
+              <div className="column">
+                <strong>
+                  {phone ? (
+                    <a href={`tel:${phone}`}>{phone}</a>
+                  ) : (
+                    <a href={`tel:${phone}`}>{'08-6735695'}</a>
+                  )}
+                </strong>
+              </div>
+            </div>
           </div>
         </div>
       </article>

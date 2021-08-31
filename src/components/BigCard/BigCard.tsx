@@ -3,6 +3,7 @@ import { ICard } from '../../models/ICard';
 import HeaderLink from '../HeaderLink/HeaderLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const BigCard: React.FC<ICard> = ({
   title,
@@ -28,7 +29,6 @@ const BigCard: React.FC<ICard> = ({
         <div className="card-content">
           <div className="media">
             <div className="media-content">
-              {/* <Presentation /> */}
               <p className="subtitle is-6"></p>
             </div>
           </div>
@@ -43,11 +43,11 @@ const BigCard: React.FC<ICard> = ({
             </div>
             <br />
             {link ? (
-              <HeaderLink page={link}>
+              <Link to={link}>
                 <strong>
                   Till {linkName} <FontAwesomeIcon icon={faArrowRight} />
                 </strong>
-              </HeaderLink>
+              </Link>
             ) : (
               ''
             )}

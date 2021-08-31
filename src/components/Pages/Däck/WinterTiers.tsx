@@ -9,6 +9,9 @@ import CVC7 from '../../../pictures/WinterTires/NordicFriction/continental-vikin
 import MA6 from '../../../pictures/WinterTires/MiddleEuropeanFriction/michelin-alpin-6.png';
 import MPA4 from '../../../pictures/WinterTires/MiddleEuropeanFriction/pa4.png';
 import MPA5 from '../../../pictures/WinterTires/MiddleEuropeanFriction/michelin-pilot-alpin-5.png';
+import StaffDescription from '../../StaffDescription/StaffDescription';
+import nicklas from '../../../pictures/thumbnail_IMG_8861.png';
+import CardForPhoneOrEmail from '../../CardForPhoneorEmail/CardPhoneEmail';
 
 const WinterTiers: React.FC = () => {
   return (
@@ -17,9 +20,23 @@ const WinterTiers: React.FC = () => {
         <div className="has-text-centered">
           <h1>Vinterdäck</h1>
           <br />
-          <h3>
-            <strong>Vi på Roine Lindberg Gummi rekommenderar:</strong>
-          </h3>
+          <div className="columns">
+            <div className="column"></div>
+            <div className="column">
+              <CardForPhoneOrEmail
+                title="Nicklas Lindberg"
+                img={nicklas}
+                email="info@roines.se"
+                phone="08888888"
+              >
+                <strong>
+                  Jag heter Nicklas och mig kan du kontakta om du har
+                  funderingar kring vilka däck som passar bäst för just din bil.
+                </strong>
+              </CardForPhoneOrEmail>
+            </div>
+            <div className="column"></div>
+          </div>
         </div>
         <h1 className="title has-text-centered">Dubbade däck:</h1>
         <CardWrapper>

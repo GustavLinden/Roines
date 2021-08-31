@@ -3,4 +3,5 @@ export interface IStaffCompetens {
   email?: string;
   summary?: string;
   picture?: string;
+  phone?: string;
 }

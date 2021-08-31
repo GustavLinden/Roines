@@ -28,14 +28,7 @@ const About: React.FC = () => {
           förutsättningar vad gäller biltyp och körsätt hos dig som förare.
         </p>
 
-        <p>
-          Vi är en av Michelin kvalitetscertifierad verkstad! (läs mer under
-          länken{' '}
-          <a href="https://www.roines.se/michelin-quality-dealer">
-            Michelin Quality Dealer
-          </a>
-          )
-        </p>
+        <p>Vi är en av Michelin kvalitetscertifierad verkstad!</p>
       </article>
     </SiteTemplate>
   );

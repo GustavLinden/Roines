@@ -6,6 +6,7 @@ import './MainPage.module.scss';
 import Card from '../SmallCard/Card';
 import Map from '../../Map/Map';
 import SectionLargePicture from '../SectionLargePicture/SectionLargePicture';
+import CardForLinks from '../CardForLinks/CardForLinks';
 
 const MainPage: React.FC = () => {
   return (
@@ -24,17 +25,17 @@ const MainPage: React.FC = () => {
       >
         <div></div>
         <CardWrapper>
-          <Card
+          <CardForLinks
             img={
               'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
             }
-            link="www.aftonbladet.se"
-            linkName="Aftonbladet"
+            extLink="https://www.aftonbladet.se"
+            extLinkName="Paradice city"
           >
             <strong>Rätt däck till din Porsche?</strong> <br />
             Vi hjälper dig!
-          </Card>
-          <Card
+          </CardForLinks>
+          <CardForLinks
             img={
               'https://images.unsplash.com/flagged/photo-1579782647395-2e6fb36a64f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=737&q=80'
             }
@@ -42,8 +43,8 @@ const MainPage: React.FC = () => {
             <strong>Service frågor om Teslan?</strong>
             <br />
             Vi hjälper dig!
-          </Card>
-          <Card
+          </CardForLinks>
+          <CardForLinks
             img={
               'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
             }
@@ -51,14 +52,14 @@ const MainPage: React.FC = () => {
             <strong>Nya sommardäck?</strong>
             <br />
             <p></p>
-          </Card>
-          <Card
+          </CardForLinks>
+          <CardForLinks
             img={
               'https://images.unsplash.com/photo-1610370720330-fdf511ccafe7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhciUyMHdpbnRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
             }
           >
             <strong>Tid för nya vinterdäck?</strong>
-          </Card>
+          </CardForLinks>
         </CardWrapper>
       </SectionModule>
       <SectionModule

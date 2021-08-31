@@ -6,4 +6,6 @@ export interface ICard {
   linkName?: string;
   extLink?: string;
   extLinkName?: string;
+  email?: string;
+  phone?: string;
 }
