@@ -14,7 +14,7 @@ const BigCard: React.FC<ICard> = ({
 }) => {
   return (
     <div className="column">
-      <div className="card cardbox">
+      <div className="card">
         <div className="card-image">
           <figure className="image is-4by3">
             <img

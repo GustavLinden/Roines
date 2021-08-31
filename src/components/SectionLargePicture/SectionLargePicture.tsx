@@ -1,6 +1,7 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ISectionModel } from '../../models/ISectionModel';
 import HeaderLink from '../HeaderLink/HeaderLink';
 import styles from './SectionLargeImage.module.scss';
@@ -35,18 +36,18 @@ const SectionLargePicture: React.FC<ISectionModel> = ({
               <div className={`${styles.columnInternalMargin}`}>
                 {' '}
                 {link ? (
-                  <HeaderLink page={link}>
-                    <strong className={`${styles.columnInternalPosition}`}>
+                  <Link to={link}>
+                    <strong>
                       Till {linkname} <FontAwesomeIcon icon={faArrowRight} />
                     </strong>
-                  </HeaderLink>
+                  </Link>
                 ) : (
                   ''
                 )}
               </div>
             </div>
 
-            <div className={`column is-half`}>
+            <div className={`column is-half is-hidden-mobile`}>
               {' '}
               {img ? <figure>{img ? <img src={img} /> : ''}</figure> : ''}{' '}
             </div>
@@ -58,3 +59,4 @@ const SectionLargePicture: React.FC<ISectionModel> = ({
 };
 
 export default SectionLargePicture;
+// className={`${styles.columnInternalMargin}`}

@@ -1,18 +1,3 @@
 .presentationHeight {
   min-height: 75vh;
 }
-@media screen and (min-width: 1400px) {
-  .presentationHeight:not(.is-max-desktop):not(.is-max-widescreen) {
-    width: 1400px;
-  }
-}
-@media screen and (min-width: 1216px) {
-  .presentationHeight:not(.is-max-desktop) {
-    max-width: 1152px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .presentationHeight {
-    max-width: 960px;
-  }
-}

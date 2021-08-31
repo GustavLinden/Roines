@@ -20,7 +20,7 @@ const Card: React.FC<ICard> = ({
     <div className="card  cardbox">
       <div className="card-content">
         <div className="card-image">
-          <figure className="image is-3by4">
+          <figure className="image is-4by3">
             <img src={img} alt="Placeholder image" />
           </figure>
         </div>
@@ -35,7 +35,7 @@ const Card: React.FC<ICard> = ({
             <br />
           </div>
         </div>
-        <div style={{ position: 'absolute', bottom: '20px' }}>
+        <div style={{ position: 'absolute', bottom: '20px', right: '90px' }}>
           {link ? (
             <Link to={link}>
               <strong>

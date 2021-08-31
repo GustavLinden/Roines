@@ -26,7 +26,7 @@ const WinterTiers: React.FC = () => {
           <Card
             img={MXIN4}
             title="Michelin X-Ice North 4"
-            extLinkName="dimensioner"
+            extLinkName="mer information"
             extLink="https://www.michelin.se/auto/tyres/michelin-x-ice-north-4#sizes"
           >
             <ul>
@@ -47,7 +47,7 @@ const WinterTiers: React.FC = () => {
             img={PIZ2}
             title="Pirelli Ice Zero2"
             extLink="https://www.pirelli.com/tyres/sv-se/car/find-your-tyres/products-sheet/ice-zero-2"
-            extLinkName="mer info"
+            extLinkName="mer information"
           >
             <ul>
               <li>Balans och stabilitet vid acceleration och inbromsning</li>
@@ -63,8 +63,7 @@ const WinterTiers: React.FC = () => {
         <CardWrapper>
           <Card
             extLink="https://www.pirelli.com/tyres/sv-se/car/find-your-tyres/products-sheet/ice-zero-fr"
-            extLinkName="
-          Pirelli Ice Zero Fr"
+            extLinkName="mer information"
             img={PIZF}
             title="
 Pirelli Ice Zero Fr"
@@ -81,14 +80,70 @@ Pirelli Ice Zero Fr"
               <li>Ökat grepp på alla underlag och optimerad dragkraft</li>
             </ul>
           </Card>
-          <Card img={CVC7} title="ContiVikingContact 7" />
+          <Card
+            img={CVC7}
+            title="ContiVikingContact 7"
+            extLink="https://www.continental-däck.se/personbil/daeck/vikingcontact-7"
+            extLinkName="mer information"
+          >
+            <ul>
+              <li>
+                Unik gummiblandning med perfekt grepp på snöiga, isiga och våta
+                vintervägar
+              </li>
+              <li>
+                Ny mönsterdesign ger säkrare skydd mot slask och vattenplaning
+              </li>
+              <li>
+                Stabilitet och säkra köregenskaper på alla typer av vintervägar
+              </li>
+            </ul>
+          </Card>
         </CardWrapper>
         <br />
         <h1 className="title has-text-centered">Mellaneuropeisk friktion:</h1>
         <CardWrapper>
-          <Card img={MA6} title="Michelin Alpin 6" />
-          <Card img={MPA4} title="Michelin Pilot Alpin 4" />
-          <Card img={MPA5} title="Michelin Pilot Alpin 5" />
+          <Card
+            img={MA6}
+            title="Michelin Alpin 6"
+            extLink="https://www.michelin.se/dack/michelin-alpin-6"
+            extLinkName="mer information"
+          >
+            <ul>
+              <li>Optimerat för våta till snöiga vägbanor.</li>
+              <li>Mer stabilitet och balans.</li>
+              <li>Lägre bullernivå.</li>
+            </ul>
+          </Card>
+          <Card
+            img={MPA4}
+            title="Michelin Pilot Alpin 4"
+            extLink="http://www.michelin.se/dack/michelin-pilot-alpin-pa4"
+            extLinkName="mer information"
+          >
+            <ul>
+              <li>Vinterdäck för bilar med hög prestanda.</li>
+              <li>Maximal stabilitet, balans och styrprecision.</li>
+              <li>Godkänt av Porsche, Mercedes och BMW.</li>
+            </ul>
+          </Card>
+          <Card
+            img={MPA5}
+            title="Michelin Pilot Alpin 5"
+            extLink="https://www.michelin.se/dack/michelin-pilot-alpin-5"
+            extLinkName="mer information"
+          >
+            <ul>
+              <li>
+                Senaste generationen gummiblandning ger ett bättre våt-, torr-
+                och snögrepp
+              </li>
+              <li>
+                En ny blandning under slitbanan minskar bränsleförbrukningen
+              </li>
+              <li>Premium Touch-design utmed hela däcksidan</li>
+            </ul>
+          </Card>
         </CardWrapper>
       </SectionModule>
     </div>
